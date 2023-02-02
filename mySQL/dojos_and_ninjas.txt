@@ -1,0 +1,32 @@
+-- Query: Create 3 new dojos
+-- INSERT INTO dojos (name)
+-- VALUES ('Tituba'), ('La Voisin'), ('Shipton');
+-- Query: Delete the 3 dojos you just created
+-- SET SQL_SAFE_UPDATES = 0;
+-- DELETE FROM dojos;
+-- Query: Create 3 more dojos
+-- INSERT INTO dojos (name)
+-- VALUES ('Tituba'), ('La Voisin'), ('Shipton');
+-- Query: Create 3 ninjas that belong to the first dojo
+-- INSERT INTO ninjas (first_name, last_name, age, dojo_id)
+-- VALUES ('Vanessa', 'Guzman-Ali', 30, 4), ('Mohammed', 'Ali', 28, 4), ('Taylor', 'Guzman', 11, 4),
+-- Query: Create 3 ninjas that belong to the second dojo
+		-- ('Rupert', 'Guzman', 9, 5), ('Charlie', 'Guzman', 9, 5), ('Britany', 'Marin', 32, 5),
+-- Query: Create 3 ninjas that belong to the third dojo
+		-- ('Scoobert', 'Doo', 7, 6), ('Shaggy', 'Rogers', 17, 6), ('Daphne', 'Blake', 16, 6);
+-- Query: Retrieve all the ninjas from the first dojo
+
+-- SELECT * FROM dojos
+-- JOIN ninjas ON dojos.id = ninjas.dojo_id
+-- WHERE dojos.id = 4;
+-- Query: Retrieve all the ninjas from the last dojo
+-- SELECT * FROM dojos
+-- JOIN ninjas ON dojos.id = ninjas.dojo_id
+-- WHERE dojos.id = 6;
+-- Query: Retrieve the last ninja's dojo
+-- SELECT * FROM dojos
+-- WHERE dojos.id = 6
+-- ORDER BY id DESC LIMIT 1;
+
+-- Submit your .txt file that contains all the queries you ran in the shell
+

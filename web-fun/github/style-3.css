@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 2px;
+    max-width: 800px;
+    background-color: slategray;
+    justify-content: center;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.teal {
+    background-color: teal;
+    /* padding: 10px; */
+    height: 220px;
+    
+
+}
+
+img {
+    height: 200px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+.coral {
+    background-color: coral;
+}
+
+p {
+    text-align: center;
+}

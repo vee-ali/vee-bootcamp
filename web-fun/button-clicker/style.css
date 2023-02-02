@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    padding: 20px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.left {
+    /* margin-right: 20px; */
+    /* width: 50%; */
+}
+/* // nav bar // */
+
+.nav {
+    background-color: #C1C1C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+button.login {
+    background-color: #2B78E4;
+    padding: 3px 6px;
+    color: whitesmoke;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+#search-bar {
+    width: 200px;
+    padding: 2px;
+    margin: 0px 130px;
+}
+
+/* // Vocabulary Card A // */
+
+.vocab-card-a {
+    margin-bottom: 20px;
+}
+
+.vocab-card-a,.vocab-card-b {
+    border: 2px solid black;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    margin-right: 20px;
+    width: 400px;
+}
+
+.vocab-left, .vocab-left2 {
+    padding: 10px;
+    /* justify-content: center; */
+}
+
+
+button.likes {
+    background-color: #FFD965;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    padding: 8px 14px;
+    /* justify-content: center; */
+}
+
+/* // right column // */
+
+.right {
+    border: 2px solid black;
+    /* padding: 10px; */
+    width: 200px;
+    padding: 10px;
+    height: 100px;
+    
+}
+
+button.add {
+    background-color: #93C47C;
+    padding: 6px 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+h2, h3, p {
+    text-align: center;
+    padding: 5px;
+}
+
+span {
+    color: #2B78E4;
+    text-decoration: underline;
+}

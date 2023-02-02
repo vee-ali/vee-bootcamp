@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Dojonary</h1>
+        <form action="#">
+            <input type="text" name="search-bar" id="search-bar" value="search">
+        </form>
+        <button class="login" onclick="login(this)">Login</button>
+    </div>
+
+    <div class="main">
+<!-- // left column // -->
+
+        <div class="left">
+            <div class="vocab-card-a">
+                <div class="vocab-left">
+                    <h2>ninja</h2>
+                    <h3>noun</h3>
+                    <p>Plural: ninjas</p>
+                    <button class="likes" onclick="message()">2 likes</button>
+                </div>
+                <div class="vocab-right">
+                    <p>A practitioner skilled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+                </div>
+            </div>
+            <div class="vocab-card-b">
+                <div class="vocab-left2">
+                    <h2>ninja</h2>
+                    <h3>noun</h3>
+                    <p>Plural: ninjas</p>
+                    <button class="likes" onclick="message()">2 likes</button>
+                </div>
+                <div class="vocab-right2">
+                    <p>A <span>programmer</span> who breaks down problems with <span>zen</span>-like focus</p>
+                </div>
+            </div>
+        </div>
+        
+<!-- // right colmn // -->
+        <div class="right">
+            <h2>Dojonary is defined by YOU</h2>
+            <button class="add" onclick="remove(this)">Add Definition</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

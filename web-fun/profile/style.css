@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* // nav // */
+.nav-container {
+    background-color: black;
+    color: whitesmoke;
+    width: 1270px;
+    margin: auto;
+    padding: 20px;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+}
+.nav-title {
+    width: 50%;
+    color: whitesmoke;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+
+}
+.nav-title ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    color: whitesmoke;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h3 {
+    
+}
+
+button {
+    background-color: #13A3B8;
+    color: white;
+    padding: 4px;
+    
+}
+
+body {
+    background-color: whitesmoke ;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.left {
+    margin-right: 30px;
+}
+/* // left column // */
+
+.w-container {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0px; */
+    align-items: flex-start;
+    /* display: inline-flex; */
+    margin-bottom: 30px;
+}
+
+.user-card {
+    background-color: whitesmoke;
+    border: 3px solid #CCCCCC;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 600px;
+
+}
+
+.icon-header {
+    background-color: #13A3B8;
+    height: 120px;
+    margin-bottom: 55px;
+    padding-left: 20px;
+    border-bottom: 3px solid #CCCCCC;
+}
+
+.profile-icon {
+    background-color: whitesmoke;
+    height: 180px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 3px solid #CCCCCC;
+
+}
+
+.card-body {
+    background-color: whitesmoke;
+    padding: 20px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.marker {
+    height: 20px;
+    padding-right: 5px;
+
+}
+
+.gear {
+    height: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.check, .x {
+    height: 40px;
+    /* padding-right: 10px; */
+    /* justify-content: end; */
+}
+
+.end {
+    justify-content: end;
+}
+
+h1, h2 {
+    padding-bottom: 10px;
+    
+}
+
+/* // education card // */
+
+.education-card {
+    background-color: whitesmoke;
+    border: 3px solid #CCCCCC;
+    border-radius: 5px;
+    overflows: hidden;
+    width: 594px;
+    /* padding: 10px; */
+    font-family: 'Comfortaa', cursive;
+
+
+}
+
+.education-header {
+    background-color: #333333;
+    color: whitesmoke;
+    padding-left: 20px;
+    /* width: 800px; */
+    margin-bottom: 10px;
+}
+
+.education-body {
+    width: 800px;
+
+}
+
+/* // connection requests // */
+
+.connection-card {
+    background-color: whitesmoke;
+    border: 3px solid #CCCCCC;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 400px;
+    margin-bottom: 30px;
+
+}
+
+.connection-header {
+    background-color: #333333;
+    color: whitesmoke;
+    padding-left: 20px;
+    /* width: 800px; */
+    margin-bottom: 10px;
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+}
+
+.request {
+    background-color: gray;
+    border-radius: 50%;
+    padding: 2px 6px;
+    margin-right: 10px;
+}
+
+.user-con {
+    display: flex;
+
+}
+
+.start {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 5px 10px;
+    font-size: 25px;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+/* // your connections // */
+
+.ur-connrction {
+    background-color: whitesmoke;
+    border: 3px solid #CCCCCC;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 400px;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+.ur-con-header {
+    background-color: #333333;
+    color: whitesmoke;
+    padding-left: 20px;
+    /* width: 800px; */
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.my-con {
+    background-color: gray;
+    border-radius: 50%;
+    padding: 2px 6px;
+    margin-right: 10px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 25px;
+}
